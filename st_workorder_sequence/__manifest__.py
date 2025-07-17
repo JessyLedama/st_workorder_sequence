@@ -3,12 +3,14 @@
     'version': '1.0',
     'depends': ['mrp'],
     'category': 'Manufacturing',
-    'author': 'Jessy Ledama',
-    'description': 'Restrict starting of a Work Order until the previous one is done.',
+    'author': 'SIMI Technologies',
+    'website': 'https://simitechnologies.co.ke',
+    'description': 'Restrict starting of a Work Order until the previous one is done, or the status is ready.',
     'data': [
         'views/mrp_workorder_views.xml',
         'views/mrp_production_workorder_tree_editable_view.xml'
     ],
     'installable': True,
     'auto_install': False,
+    'license': 'LGPL-3',
 }
