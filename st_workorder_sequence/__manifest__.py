@@ -3,7 +3,7 @@
     'version': '1.0',
     'depends': ['mrp'],
     'category': 'Manufacturing',
-    'author': 'SIMI Technologies',
+    'author': 'Jessy Ledama',
     'website': 'https://simitechnologies.co.ke',
     'description': 'Restrict starting of a Work Order until the previous one is done, or the status is ready.',
     'data': [
